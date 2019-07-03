@@ -8,42 +8,64 @@
     background:rgba(0,0,0,0);
     overflow-x: hidden;
     padding-top: 20px;
-  }
-  
-  .navbar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
-  
-  .navbar a:hover {
-    color: #f1f1f1;
-  }
-  
-  .main {
-    margin-left: 160px;
-    padding: 0px 10px;
-  }
-  
-  h1 {
-    float: right;
-    padding-right: 45px;
-    font-size: 90px;
-  }
+}
 
-  h2 {
-    float: right;
-    padding-right: 45px;
-    font-size: 60px;
-  }
+.navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
 
-  p {
-      float: right;
-      font-size: 30px;
-      padding-right: 100px;
-      padding-bottom: 30px;
-      padding-top: 30px;
-      padding-left: 200px;
+.navbar a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+h1 {
+  float: right;
+  padding-right: 45px;
+  font-size: 90px;
+}
+h2 {
+  float: right;
+  padding-right: 45px;
+  font-size: 60px;
+}
+
+h3 {
+    float: center;
+    font-size: 40px;
+}
+
+p {
+    float: right;
+    font-size: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+/* project grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 180px 200px;
+    grid-gap: 10px;
+    background-color: #f0f0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 190px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(0, 0, 0,0);
+    text-align: center;
+    padding: 20px;
   }
