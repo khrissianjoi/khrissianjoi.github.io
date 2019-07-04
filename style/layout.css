@@ -52,28 +52,28 @@ html, body{
 
 h1 {
   float: right;
-  padding-right: 45px;
-  font-size: 90px;
+  /* padding-right: 0%; */
+  font-size: 600%;
 }
 h2 {
   float: right;
-  padding-right: 45px;
-  font-size: 60px;
+  /* padding-right: 45px; */
+  font-size: 450%;
 }
 
 h3 {
     float: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 270%;
 }
 
 p {
     float: right;
-    font-size: 30px;
-    padding-right: 100px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 200px;
+    font-size: 160%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 /* project grid */
