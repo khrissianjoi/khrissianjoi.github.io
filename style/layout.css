@@ -21,7 +21,7 @@ html, body{
 }
 
 
-.navbar {
+.navbar-nav {
     height: 100%;
     width: 160px;
     position: fixed;
@@ -51,7 +51,7 @@ html, body{
 }
 
 h1 {
-  float: right;
+  /* float: right; */
   /* padding-right: 0%; */
   font-size: 600%;
 }
