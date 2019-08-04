@@ -1,9 +1,3 @@
-/* html, body{
-    height: 100%;
-    padding: 0px;
-    margin: 0px;
-  } */
-
 .projects-block {
     padding: 150px;
 }
@@ -25,7 +19,6 @@ section {
   height: 100vh;
   padding-top: 70px;
   padding-bottom: 70px;
-  /* border: 1px solid black; */
 }
 
 .navbar-nav {
