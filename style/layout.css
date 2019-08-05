@@ -1,3 +1,35 @@
+
+.icon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .projects-block {
     padding: 150px;
 }
@@ -14,6 +46,21 @@
     padding: 150px;
 }
 
+#AboutMe {
+  background-image: url("../background.jpg");
+  /* position:fixed; */
+}
+
+.name {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color:#B76E79;
+  font-size: 125px;
+}
+
+#Home{
+  font-family: 'Patrick Hand', cursive;
+  color:#B76E79;
+}
 section {
   width: 100%;
   height: 100vh;
@@ -23,7 +70,7 @@ section {
 
 .navbar-nav {
     height: 100%;
-    width: 160px;
+    width: 100px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -39,15 +86,6 @@ section {
   font-size: 25px;
   color: #818181;
   display: block;
-}
-
-.navbar a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px;
-  padding: 0px 10px;
 }
 
 p {
@@ -82,4 +120,9 @@ p {
  } 
   .graphoutline {
     border: 1px solid red;
+  }
+
+  .content {
+    border:1px solid blue;
+    padding: 10px;
   }
