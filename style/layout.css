@@ -45,22 +45,28 @@
 .home-block {
     padding: 150px;
 }
-
-#AboutMe {
-  background-image: url("../background.jpg");
-  /* position:fixed; */
+.heading {
+  border: 10px solid transparent;
+  padding: 15px;
+  margin: 70px;
+  border-image: url("../images/rosegold.jpg") 30;
 }
 
 .name {
-  font-family: 'Liu Jian Mao Cao', cursive;
-  color:#B76E79;
-  font-size: 125px;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 100px;
+  color: white;
+  /* color: #b76e79; */
+}
+.description {
+  /* color: #b76e79; */
+  color: white;
+}
+#Home {
+  background-image: url("../images/black1.jpg");
+  /* background-size: cover; */
 }
 
-#Home{
-  font-family: 'Patrick Hand', cursive;
-  color:#B76E79;
-}
 section {
   width: 100%;
   height: 100vh;
@@ -97,22 +103,6 @@ p {
     padding-left: 2%;
 }
 
-/* project grid */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 180px 200px;
-    grid-gap: 10px;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 190px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(0, 0, 0,0);
-    text-align: center;
-    padding: 20px;
-  }
 
  .gap {
    padding-top: 10px;
@@ -123,6 +113,7 @@ p {
   }
 
   .content {
-    border:1px solid blue;
-    padding: 10px;
+    border: 5px solid transparent;
+    padding: 15px;
+    border-image: url("../images/rosegold.jpg") 30;
   }
