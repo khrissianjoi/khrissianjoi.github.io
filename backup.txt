@@ -1,0 +1,7 @@
+    <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Combo&display=swap" rel="stylesheet">
+    
+
+    font-family: 'Wire One', sans-serif;
+font-family: 'Major Mono Display', monospace;
